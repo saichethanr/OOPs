@@ -23,4 +23,10 @@ int main(){
     //what if its an empty class
     //even empty class will have 1 byte of memory
     //size :1
+
+    //accessing
+
+    hero ramesh;
+    ramesh.health = 90;
+    cout<<ramesh.health<<endl;
 }
