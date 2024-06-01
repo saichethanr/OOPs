@@ -20,9 +20,10 @@ public:
    }
 
    //parameterized constructor
-   Hero(int health,char level){
+   Hero(int health,char level ,char name[100]){
       this->health= health;
       this->level = level;
+      this->name = name;
    }
  
 
@@ -42,8 +43,12 @@ public:
 int main(){
 
 
-Hero h1(90,9);
-Hero h2(100,7);
+Hero h1(90,'a',"sonam");
+Hero h2(100,'b',"sai");
+h1.print();
+h2.print();
 h1=h2;
+h1.print();
+h2.print();
 //a
 }
