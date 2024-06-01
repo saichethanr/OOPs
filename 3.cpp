@@ -54,6 +54,7 @@ int main(){
     Hero *b = new Hero;
     b->sethealth(60);
     cout<<b->gethealth()<<endl;
+    cout<<(*b).gethealth()<<endl;
 
 
 
