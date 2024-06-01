@@ -8,6 +8,7 @@ using namespace std;
 //dynamic allocation
 //constructor called
 
+//if u implement at least one parametarized constructor then the default constructor is destroyed
 
 class Hero{
 
@@ -28,6 +29,7 @@ public:
    //it may cause the ivering the same location
 
    //this keyword initialized the value to the current object calling it
+   //this is a pointer to the current object
    Hero(int health,char level){
       this->health= health;
       this->level = level;
